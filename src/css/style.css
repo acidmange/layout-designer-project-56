@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Roboto-Medium;
+  src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Roboto-Regual;
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+:root {
+  /* Base Page settings */
+  --base-font-family: Roboto-Regular, sans-serif;
+  --base-line-height: 1.5;
+  --base-font-color: #cacaca;
+  --base-background-color: #08020d;
+
+  /* h1 Desktop settings */
+  --desktop-h1-font-size: 60px;
+  --desktop-h1-line-height: 90px;
+  --desktop-h1-font-weight: bold;
+  --desktop-h1-text-transform: uppercase;
+
+  /* h2 Desktop settings */
+  --desktop-h2-font-size: 38px;
+  --desktop-h2-line-height: 57px;
+  --desktop-h2-font-weight: bold;
+  --desktop-h2-text-transform: uppercase;
+
+  /* h1 Mobile settings */
+  --mobile-h1-font-size: 30px;
+  --mobile-h1-line-height: 45px;
+  --mobile-h1-font-weight: bold;
+  --mobile-h1-text-transform: uppercase;
+
+  /* h2 Mobile settings */
+  --mobile-h2-font-size: 18px;
+  --mobile-h2-line-height: 27px;
+  --mobile-h2-font-weight: bold;
+  --mobile-h2-text-transform: uppercase;
+}
