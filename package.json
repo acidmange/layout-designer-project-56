@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/acidmange/layout-designer-project-56/issues"
   },
-  "homepage": "https://github.com/acidmange/layout-designer-project-56#readme"
+  "homepage": "https://github.com/acidmange/layout-designer-project-56#readme",
+  "dependencies": {
+    "sass": "^1.57.1",
+    "surge": "^0.23.1"
+  },
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint": "^14.16.1",
+    "stylelint-config-standard-scss": "^6.1.0"
+  }
 }
