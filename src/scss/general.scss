@@ -1,5 +1,7 @@
 // Base project styles
 
+// Variables
+
 $base-font-family: "Roboto", sans-serif !default;
 $base-line-height: 1.5 !default;
 $base-font-color: #cacaca !default;
@@ -32,3 +34,40 @@ $mob-h2-f-size: 18px !default;
 $mob-h2-l-height: 27px !default;
 $mob-h2-f-weight: bold !default;
 $mob-h2-t-transform: uppercase !default;
+
+// Base styles
+
+.base {
+  font-family: $base-font-family;
+  line-height: $base-line-height;
+  color: $base-font-color;
+  background-color: $base-background-color;
+
+  &__desk-h1 {
+    font-size: $desk-h1-f-size;
+    line-height: $desk-h1-l-height;
+    font-weight: $desk-h1-f-weight;
+    text-transform: $desk-h1-t-transform;
+  }
+
+  &__desk-h2 {
+    font-size: $desk-h2-f-size;
+    line-height: $desk-h2-l-height;
+    font-weight: $desk-h2-f-weight;
+    text-transform: $desk-h2-t-transform;
+  }
+
+  &__mob-h1 {
+    font-size: $mob-h1-f-size;
+    line-height: $mob-h1-l-height;
+    font-weight: $mob-h1-f-weight;
+    text-transform: $mob-h1-t-transform;
+  }
+
+  &__mob-h2 {
+    font-size: $mob-h2-f-size;
+    line-height: $mob-h2-l-height;
+    font-weight: $mob-h2-f-weight;
+    text-transform: $mob-h2-t-transform;
+  }
+}
