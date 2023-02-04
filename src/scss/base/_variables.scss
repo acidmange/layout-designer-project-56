@@ -1,0 +1,94 @@
+// Project variables
+
+
+// Base project variables
+
+$base-font-family: "Roboto", sans-serif !default;
+$base-line-height: 1.5 !default;
+$base-font-color: #cacaca !default;
+$base-background-color: #08020d !default;
+
+
+// Desktop variables
+
+// h1 headers
+
+$desk-h1-f-size: 60px !default;
+$desk-h1-l-height: 90px !default;
+$desk-h1-f-weight: bold !default;
+$desk-h1-t-transform: uppercase !default;
+
+// h2 headers
+
+$desk-h2-f-size: 38px !default;
+$desk-h2-l-height: 57px !default;
+$desk-h2-f-weight: bold !default;
+$desk-h2-t-transform: uppercase !default;
+
+// h3 headers
+
+$desk-h3-f-size: 24px !default;
+$desk-h3-l-height: 45px !default;
+$desk-h3-f-weight: 400 !default;
+$desk-h3-t-transform: uppercase !default;
+
+// h3 capitalize headers
+
+$desk-h3-t-transform_capitalize: capitalize !default;
+
+// h3 capitalize bold headers
+
+$desk-h3-f-weight_capitalize_bold: bold !default;
+
+// h4 headers
+
+$desk-h4-f-size: 18px !default;
+$desk-h4-l-height: 27px !default;
+$desk-h4-f-weight: 700 !default;
+$desk-h4-t-transform: uppercase !default;
+
+// h4 capitalize bold headers
+
+$desk-h4-t-transform_capitalize: capitalize !default;
+
+
+// Mobile variables
+
+// h1 headers
+
+$mob-h1-f-size: 30px !default;
+$mob-h1-l-height: 45px !default;
+$mob-h1-f-weight: bold !default;
+$mob-h1-t-transform: uppercase !default;
+
+// h2 headers
+
+$mob-h2-f-size: 18px !default;
+$mob-h2-l-height: 27px !default;
+$mob-h2-f-weight: bold !default;
+$mob-h2-t-transform: uppercase !default;
+
+// h3 headers
+
+$mob-h3-f-size: 16px !default;
+$mob-h3-l-height: 24px !default;
+$mob-h3-f-weight: 700 !default;
+$mob-h3-t-transform: uppercase !default;
+
+// h4 headers
+
+$mob-h4-f-size: 18px !default;
+$mob-h3-l-height: 24px !default;
+$mob-h4-f-weight: 700 !default;
+$mob-h4-t-transform: uppercase !default;
+
+
+// Colors
+
+$color-light-gray: #e0e0e0 !default;
+$color-dark-gray: #3c3b3d !default;
+$color-green: #34c176 !default;
+$color-light-orange: #F89202 !default;
+$color-purple: #5328a1 !default;
+$color-dark-orange: #95390c !default;
+
