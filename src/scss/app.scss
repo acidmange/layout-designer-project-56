@@ -10,8 +10,9 @@
 // Import typography styles
 @import "./base/typography";
 
-// Import components framework
+// Import components
 @import "./components/framework";
+@import "./components/header";
 
 // Import grid layout styles
 @import "./layouts/grid";
