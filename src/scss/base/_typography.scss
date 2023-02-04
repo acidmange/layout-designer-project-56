@@ -1,0 +1,50 @@
+// Typography Styles
+
+.typography {
+  font-weight: 400;
+  color: #3c3b3d;
+  
+  &__text-size_7 {
+    font-size: 64px;
+    line-height: 96px;
+  }
+
+  &__text-size_6 {
+    font-size: 56px;
+    line-height: 84px;
+  }
+
+  &__text-size_5 {
+    font-size: 48px;
+    line-height: 72px;
+  }
+
+  &__text-size_4 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  &__text-size_3 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  &__text-size_2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  &__text_size_1 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &__text-size_small {
+    font-size: 12.8px;
+    line-height: 19.2px;
+
+    &_bold {
+      font-weight: 700;
+    }
+  }
+}
