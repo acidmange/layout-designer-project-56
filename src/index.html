@@ -4,14 +4,87 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Music-Box_Portal_acidmange</title>
+    <title>Music-Box_Portal__acidmange</title>
     <link rel="stylesheet" href="./css/style.css">
   </head>
-  <body>
-    <header></header>
+  <body class="base">
+    <header class="grid grid_header header">
+      <div class="grid grid_header__logo header__logo logo typography">
+        <img class="logo__image" src="./images/logo.svg" alt="Music box logo">
+        <p><a class="typography__nav-link header__link" href="#">Music box</a></p>
+      </div>
+      <nav class="nav">
+        <ul class="typography grid grid_header__list nav__list">
+          <li><a class="typography__nav-link nav__chosen" href="#">Главная</a></li>
+          <li><a class="typography__nav-link nav__link" href="#">Каталог</a></li>
+          <li><a class="typography__nav-link nav__link" href="#">Исполнители</a></li>
+          <li><a class="typography__nav-link nav__link" href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="grid grid_header__form">
+        <form class="header-form" action="/" method="get">
+          <label class="header-form__label">
+            <p class="sr-only header-form__text">Поиск</p>
+            <input class="header-form__input" type="text" name="search" placeholder="Поиск...">
+          </label>
+        </form>
+      </div>
+    </header>
+
+    <section id="page-description"></section>
     <nav></nav>
     <main></main>
     <aside></aside>
-    <footer></footer>
+
+    <footer class="grid grid_footer footer">
+      <div class="footer__top grid grid_footer__top">
+        <div class="footer__section about">
+          <h4 class="base__desk-h4 footer__header">О нас</h4>
+          <ul class="about__list typography typography__text-size_1">
+            <li><a class="about__link" href="#">История компании</a></li>
+            <li><a class="about__link" href="#">Карьера</a></li>
+            <li><a class="about__link" href="#">Особенности</a></li>
+            <li><a class="about__link" href="#">Пресса</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__section service">
+          <h4 class="base__desk-h4 footer__header">Поддержка</h4>
+          <ul class="service__list typography typography__text-size_1">
+            <li><a class="service__link" href="#">База знаний</a></li>
+            <li><a class="service__link" href="#">Тарифы</a></li>
+            <li><a class="service__link" href="#">Мобильное приложение</a></li>
+            <li><a class="service__link" href="#">Условия использования</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__section contacts">
+          <h4 class="base__desk-h4 footer__header">Контакты</h4>
+          <div class="contacts__info typography typography__text-size_1">
+            <p class="contacts__element">hello@music.box</p>
+            <p class="contacts__element">Russia, Moscow. Music Box studio</p>
+            <p class="contacts__element">+ 7 499 999 99 99</p>
+          </div>
+        </div>
+
+        <div class="footer__section socials">
+          <h4 class="base__desk-h4 footer__header">Подписывайтесь</h4>
+          <ul class="socials__list grid grid_footer__socials">
+            <li><a href="#"><img class="socials__img" src="./images/Google+.png" alt="Google plus link"></a></li>
+            <li><a href="#"><img class="socials__img" src="./images/Twitter.png" alt="Twitter link"></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom bottom">
+        <ul class="footer__bottom-list grid grid_footer__bottom-list typography typography__text-size_1">
+          <li><a class="bottom__link" href="#">Магазин</a></li>
+          <li><a class="bottom__link" href="#">Обслуживание</a></li>
+          <li><a class="bottom__link" href="#">Блог</a></li>
+          <li><a class="bottom__link" href="#">Поддержка</a></li>
+          <li><a class="bottom__link" href="#">Контакты</a></li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
