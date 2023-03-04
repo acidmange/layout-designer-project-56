@@ -5,9 +5,6 @@
 
 $base-font-family: "Roboto", sans-serif !default;
 $base-line-height: 1.5 !default;
-$base-font-color: #cacaca !default;
-$base-background-color: #08020d !default;
-
 
 // Desktop variables
 
@@ -49,7 +46,8 @@ $desk-h4-t-transform: uppercase !default;
 
 // h4 capitalize bold headers
 
-$desk-h4-t-transform_capitalize: capitalize !default;
+$desk-h4-t-transform_capitalize_bold: capitalize !default;
+$desk-h4-f-weight_capitalize_bold: 700 !default;
 
 
 // Mobile variables
@@ -78,12 +76,15 @@ $mob-h3-t-transform: uppercase !default;
 // h4 headers
 
 $mob-h4-f-size: 18px !default;
-$mob-h3-l-height: 24px !default;
+$mob-h4-l-height: 24px !default;
 $mob-h4-f-weight: 700 !default;
 $mob-h4-t-transform: uppercase !default;
 
 
 // Colors
+
+$base-font-color: #cacaca !default;
+$base-background-color: #08020d !default;
 
 $color-light-gray: #e0e0e0 !default;
 $color-dark-gray: #3c3b3d !default;
