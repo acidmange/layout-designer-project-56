@@ -78,6 +78,10 @@
   text-transform: uppercase;
 }
 
+.body {
+  margin: 0;
+}
+
 .typography {
   font-weight: 400;
 }
@@ -277,6 +281,7 @@
 .grid_header__list {
   grid-template-columns: auto auto auto auto;
   column-gap: 24px;
+  align-items: center;
 }
 .grid_footer {
   grid-template-rows: auto auto;
@@ -292,6 +297,21 @@
 .grid_footer__bottom-list {
   grid-template-columns: min-content min-content min-content min-content min-content;
   column-gap: 16px;
+}
+
+.flex {
+  display: flex;
+}
+.flex_header__li-item {
+  justify-content: center;
+  align-items: center;
+}
+.flex_header__link {
+  justify-content: center;
+  align-items: center;
+}
+.flex_header__nav {
+  align-items: center;
 }
 
 .sr-only {
