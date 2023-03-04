@@ -7,18 +7,20 @@
     <title>Music-Box_Portal__acidmange</title>
     <link rel="stylesheet" href="./css/style.css">
   </head>
-  <body class="base">
+  <body class="base body">
     <header class="grid grid_header header">
       <div class="grid grid_header__logo header__logo logo typography">
         <img class="logo__image" src="./images/logo.svg" alt="Music box logo">
-        <p><a class="typography__nav-link header__link" href="#">Music box</a></p>
+        <div class="flex flex_header__link">
+          <a class="typography__nav-link header__link" href="#">Music box</a>
+        </div>
       </div>
-      <nav class="nav">
+      <nav class="nav flex flex_header__nav">
         <ul class="typography grid grid_header__list nav__list">
-          <li><a class="typography__nav-link nav__chosen" href="#">Главная</a></li>
-          <li><a class="typography__nav-link nav__link" href="#">Каталог</a></li>
-          <li><a class="typography__nav-link nav__link" href="#">Исполнители</a></li>
-          <li><a class="typography__nav-link nav__link" href="#">Контакты</a></li>
+          <li class="flex flex_header__li-item"><a class="typography__nav-link nav__chosen" href="#">Главная</a></li>
+          <li class="flex flex_header__li-item"><a class="typography__nav-link nav__link" href="#">Каталог</a></li>
+          <li class="flex flex_header__li-item"><a class="typography__nav-link nav__link" href="#">Исполнители</a></li>
+          <li class="flex flex_header__li-item"><a class="typography__nav-link nav__link" href="#">Контакты</a></li>
         </ul>
       </nav>
       <div class="grid grid_header__form">
