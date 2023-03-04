@@ -1,0 +1,95 @@
+// Footer styles
+
+.footer {
+  background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
+  overflow: hidden;
+
+  &__top {
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 62px;
+    padding-bottom: 72px;
+    position: relative;
+  }
+
+  &__top::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    border: 1px solid $base-font-color;
+    box-sizing: border-box;
+  }
+
+  &__header {
+    color: #fff;
+    margin: 0 0 15px 0;
+  }
+
+  &__bottom {
+    margin-top: 1px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 40px;
+    padding-bottom: 49px;
+
+    &-list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+.about {
+  &__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color-light-gray;
+  }
+}
+
+.service {
+  &__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color-light-gray;
+  }
+}
+
+.contacts {
+  &__element {
+    margin: 0;
+    color: $color-light-gray;
+  }
+}
+
+.socials {
+  &__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__img {
+    vertical-align: middle;
+  }
+}
+
+.bottom {
+  &__link {
+    text-decoration: none;
+    color: $color-light-gray;
+  }
+}
