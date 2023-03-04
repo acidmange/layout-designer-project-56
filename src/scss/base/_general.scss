@@ -6,6 +6,8 @@
   color: $base-font-color;
   background-color: $base-background-color;
 
+  // Desktop
+
   &__desk-h1 {
     font-size: $desk-h1-f-size;
     line-height: $desk-h1-l-height;
@@ -20,6 +22,35 @@
     text-transform: $desk-h2-t-transform;
   }
 
+  &__desk-h3 {
+    font-size: $desk-h3-f-size;
+    line-height: $desk-h3-l-height;
+    font-weight: $desk-h3-f-weight;
+    text-transform: $desk-h3-t-transform;
+
+    &_capitalize {
+      text-transform: $desk-h3-t-transform_capitalize;
+
+      &-bold {
+        font-weight: $desk-h3-f-weight_capitalize_bold;
+      }
+    }
+  }
+
+  &__desk-h4 {
+    font-size: $desk-h4-f-size;
+    line-height: $desk-h4-l-height;
+    font-weight: $desk-h4-f-weight;
+    text-transform: $desk-h4-t-transform;
+
+    &_capitalize-bold {
+      text-transform: $desk-h4-t-transform_capitalize_bold;
+      font-weight: $desk-h4-f-weight_capitalize_bold;
+    }
+  }
+
+  // Mobile
+
   &__mob-h1 {
     font-size: $mob-h1-f-size;
     line-height: $mob-h1-l-height;
@@ -32,5 +63,19 @@
     line-height: $mob-h2-l-height;
     font-weight: $mob-h2-f-weight;
     text-transform: $mob-h2-t-transform;
+  }
+
+  &__mob-h3 {
+    font-size: $mob-h3-f-size;
+    line-height: $mob-h3-l-height;
+    font-weight: $mob-h3-f-weight;
+    text-transform: $mob-h3-t-transform;
+  }
+
+  &__mob-h4 {
+    font-size: $mob-h4-f-size;
+    line-height: $mob-h4-l-height;
+    font-weight: $mob-h4-f-weight;
+    text-transform: $mob-h4-t-transform;
   }
 }
