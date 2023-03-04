@@ -2,8 +2,14 @@
 
 .typography {
   font-weight: 400;
-  color: #3c3b3d;
   
+  &__nav-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 16.5px;
+  }
+
   &__text-size_7 {
     font-size: 64px;
     line-height: 96px;
