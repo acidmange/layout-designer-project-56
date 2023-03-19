@@ -14,6 +14,13 @@
 @import "./components/framework";
 @import "./components/header";
 @import "./components/footer";
+@import "./components/banner";
+
+//Import mixins
+@import "./components/mixins";
+
+//Import media-queries
+@import "./components/media-queries";
 
 // Import layout styles
 @import "./layouts/grid";
