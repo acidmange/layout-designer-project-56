@@ -7,25 +7,27 @@
     <title>Music-Box_Portal__acidmange</title>
     <link rel="stylesheet" href="./css/style.css">
   </head>
-  <body class="base body">
-    <header class="grid grid_header header">
-      <div class="grid grid_header__logo header__logo logo typography">
-        <img class="logo__image" src="./images/logo.svg" alt="Music box logo">
-        <div class="flex flex_header__link">
-          <a class="typography__nav-link header__link" href="#">Music box</a>
+  <body class="base body flex flex_body">
+    <header class="header flex flex_header">
+      <div class="header__logo logo typography flex flex_header__logo">
+        <div class="logo__wrapper flex flex_header__logo-wrapper">
+          <img class="logo__image" src="./images/logo.svg" alt="Music box logo">
+          <div class="flex flex_header__link header__link-wrap">
+            <a class="typography__nav-link header__link" href="#">Music box</a>
+          </div>
         </div>
-      </div>
-      <nav class="nav flex flex_header__nav">
-        <ul class="typography grid grid_header__list nav__list">
-          <li class="flex flex_header__li-item"><a class="typography__nav-link nav__chosen" href="#">Главная</a></li>
-          <li class="flex flex_header__li-item"><a class="typography__nav-link nav__link" href="#">Каталог</a></li>
-          <li class="flex flex_header__li-item"><a class="typography__nav-link nav__link" href="#">Исполнители</a></li>
-          <li class="flex flex_header__li-item"><a class="typography__nav-link nav__link" href="#">Контакты</a></li>
+
+        <ul class="typography nav flex flex_header__list">
+          <li class="flex flex_header__li-item header__li-item"><a class="typography__nav-link nav__chosen" href="#">Главная</a></li>
+          <li class="flex flex_header__li-item header__li-item"><a class="typography__nav-link nav__link" href="#">Каталог</a></li>
+          <li class="flex flex_header__li-item header__li-item"><a class="typography__nav-link nav__link" href="#">Исполнители</a></li>
+          <li class="flex flex_header__li-item header__li-item"><a class="typography__nav-link nav__link" href="#">Контакты</a></li>
         </ul>
-      </nav>
-      <div class="grid grid_header__form">
+      </div>
+      
+      <div class="header-form-wrapper">
         <form class="header-form" action="/" method="get">
-          <label class="header-form__label">
+          <label class="header-form__label flex">
             <p class="sr-only header-form__text">Поиск</p>
             <input class="header-form__input" type="text" name="search" placeholder="Поиск...">
           </label>
@@ -33,7 +35,28 @@
       </div>
     </header>
 
-    <section id="page-description"></section>
+    <section class="banner background flex flex_banner" id="page-description">
+        <h1 class="banner__h1 base__desk-h1">Онлайн музыка где угодно</h1>
+        <h2 class="banner__h2 base__desk-h2">Без ограничений</h2>
+        <p class="banner__paragraph typography typography__text-size_1">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+
+        <form class="banner__form" action="">
+  
+          <label class="banner__label">
+            <p class="sr-only">Имя</p>
+            <input class="banner__input" type="text" name="subscribe" placeholder="Имя">
+          </label>
+  
+          <label class="banner__label m-l-24">
+            <p class="sr-only">Email</p>
+            <input class="banner__input" type="text" name="subscribe" placeholder="Email">
+          </label>
+  
+          <button class="banner__button" type="submit"><span class="banner__button_text">Получить доступ</span></button>
+  
+        </form>
+    </section>
+
     <nav></nav>
     <main></main>
     <aside></aside>
