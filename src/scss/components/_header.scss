@@ -3,14 +3,20 @@
 .header {
   padding-left: 120px;
   padding-right: 120px;
+  margin-top: 25px;
 
-  &__logo {
-    margin-right: 90px;
-  }
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 
   &__link {
     font-family: 'Roboto', sans-serif;
     color: #fff;
+  }
+
+  &__link-wrap {
+    margin-left: 16px;
   }
 }
 
@@ -18,18 +24,15 @@
   &__image {
     width: 24px;
     height: 24px;
-    margin-top: auto;
-    margin-bottom: auto;
     vertical-align: middle;
   }
 }
 
 .nav {
-  &__list {
-    font-family: "Roboto", sans-serif;
-    list-style: none;
-    padding: 0;
-  }
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 90px;
 
   &__link {
     color: $base-font-color;
@@ -49,6 +52,7 @@
 
   &__input {
     padding: 5px 10px;
+    width: 228px;
   }
 
   &__input::placeholder {
