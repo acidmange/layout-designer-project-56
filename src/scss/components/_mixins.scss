@@ -1,0 +1,8 @@
+// Mobile styles
+
+@mixin mob-h-shwt($f-size, $l-height, $f-weight, $t-transform) {
+  font-size: $f-size;
+  line-height: $l-height;
+  font-weight: $f-weight;
+  text-transform: $t-transform;
+}
