@@ -3,33 +3,12 @@
 .grid {
   display: grid;
 
-  &_header {
-    grid-template-columns: auto auto 1fr;
-
-    &__form {
-      justify-content: end;
-      align-content: center;
-    }
-
-    &__logo {
-      grid-template-columns: auto auto;
-      column-gap: 16px;
-      align-content: center;
-    }
-
-    &__list {
-      grid-template-columns: auto auto auto auto;
-      column-gap: 24px;
-      align-items: center;
-    }
-  }
-
   &_footer {
     grid-template-rows: auto auto;
 
     &__top {
       grid-template-columns: repeat(4, 1fr);
-      column-gap: 40px;
+      column-gap: 40px;      
     }
 
     &__socials {
@@ -40,6 +19,20 @@
     &__bottom-list {
       grid-template-columns: min-content min-content min-content min-content min-content;
       column-gap: 16px;
+    }
+  }
+
+  @media (max-width: $breakpoint-mob-max-w) {
+    &_footer {
+      &__top {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+      }
+
+      &__bottom-list {
+        grid-template-columns: 1fr;
+        row-gap: 16px;
+      }
     }
   }
 }
