@@ -48,38 +48,10 @@
       font-weight: $desk-h4-f-weight_capitalize_bold;
     }
   }
-
-  // Mobile
-
-  &__mob-h1 {
-    font-size: $mob-h1-f-size;
-    line-height: $mob-h1-l-height;
-    font-weight: $mob-h1-f-weight;
-    text-transform: $mob-h1-t-transform;
-  }
-
-  &__mob-h2 {
-    font-size: $mob-h2-f-size;
-    line-height: $mob-h2-l-height;
-    font-weight: $mob-h2-f-weight;
-    text-transform: $mob-h2-t-transform;
-  }
-
-  &__mob-h3 {
-    font-size: $mob-h3-f-size;
-    line-height: $mob-h3-l-height;
-    font-weight: $mob-h3-f-weight;
-    text-transform: $mob-h3-t-transform;
-  }
-
-  &__mob-h4 {
-    font-size: $mob-h4-f-size;
-    line-height: $mob-h4-l-height;
-    font-weight: $mob-h4-f-weight;
-    text-transform: $mob-h4-t-transform;
-  }
 }
 
 .body {
   margin: 0;
+  padding: 0;
+  width: 100%;
 }
