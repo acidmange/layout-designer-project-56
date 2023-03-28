@@ -1,115 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Music-Box_Portal__acidmange</title>
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body class="base body flex flex_body">
-    <header class="header flex flex_header">
-      <div class="header__logo logo typography flex flex_header__logo">
-        <div class="logo__wrapper flex flex_header__logo-wrapper">
-          <img class="logo__image" src="./images/logo.svg" alt="Music box logo">
-          <div class="flex flex_header__link header__link-wrap">
-            <a class="typography__nav-link header__link" href="#">Music box</a>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music-Box_Portal__acidmange</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="base body flex flex_body">
+  <header class="header flex flex_header">
+    <div class="header__logo logo typography flex flex_header__logo">
+      <div class="logo__wrapper flex flex_header__logo-wrapper">
+        <img class="logo__image" src="./images/logo.svg" alt="Music box logo">
+        <div class="flex flex_header__link header__link-wrap">
+          <a class="typography__nav-link header__link" href="#">Music box</a>
         </div>
-
-        <ul class="typography nav flex flex_header__list">
-          <li class="flex flex_header__li-item header__li-item"><a class="typography__nav-link nav__chosen" href="#">Главная</a></li>
-          <li class="flex flex_header__li-item header__li-item"><a class="typography__nav-link nav__link" href="#">Каталог</a></li>
-          <li class="flex flex_header__li-item header__li-item"><a class="typography__nav-link nav__link" href="#">Исполнители</a></li>
-          <li class="flex flex_header__li-item header__li-item"><a class="typography__nav-link nav__link" href="#">Контакты</a></li>
-        </ul>
       </div>
-      
-      <div class="header-form-wrapper">
-        <form class="header-form" action="/" method="get">
-          <label class="header-form__label flex">
-            <p class="sr-only header-form__text">Поиск</p>
-            <input class="header-form__input" type="text" name="search" placeholder="Поиск...">
-          </label>
-        </form>
-      </div>
-    </header>
 
-    <section class="banner background flex flex_banner" id="page-description">
+      <ul class="typography nav flex flex_header__list">
+        <li class="flex flex_header__li-item header__li-item"><a class="typography__nav-link nav__chosen"
+            href="#">Главная</a></li>
+        <li class="flex flex_header__li-item header__li-item"><a class="typography__nav-link nav__link"
+            href="#">Каталог</a></li>
+        <li class="flex flex_header__li-item header__li-item"><a class="typography__nav-link nav__link"
+            href="#">Исполнители</a></li>
+        <li class="flex flex_header__li-item header__li-item"><a class="typography__nav-link nav__link"
+            href="#">Контакты</a></li>
+      </ul>
+    </div>
+
+    <div class="header-form-wrapper">
+      <form class="header-form" action="/" method="get">
+        <label class="header-form__label flex">
+          <p class="sr-only header-form__text">Поиск</p>
+          <input class="header-form__input" type="text" name="search" placeholder="Поиск...">
+        </label>
+      </form>
+    </div>
+  </header>
+
+  <main class="main flex flex_main">
+    <section class="banner bg-banner flex flex_banner" id="page-description">
+      <div class="banner__wrapper flex flex_banner-wrapper">
         <h1 class="banner__h1 base__desk-h1">Онлайн музыка где угодно</h1>
         <h2 class="banner__h2 base__desk-h2">Без ограничений</h2>
-        <p class="banner__paragraph typography typography__text-size_1">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+        <p class="banner__paragraph typography typography__text-size_1">Получите доступ всего за несколько шагов.
+          Заполните форму ниже и откройте мир музыки</p>
 
         <form class="banner__form" action="">
-  
           <label class="banner__label">
             <p class="sr-only">Имя</p>
             <input class="banner__input" type="text" name="subscribe" placeholder="Имя">
           </label>
-  
+
           <label class="banner__label m-l-24">
             <p class="sr-only">Email</p>
             <input class="banner__input" type="text" name="subscribe" placeholder="Email">
           </label>
-  
-          <button class="banner__button" type="submit"><span class="banner__button_text">Получить доступ</span></button>
-  
+
+          <button class="banner__button btn" type="submit"><span class="banner__button_text">Получить
+              доступ</span></button>
         </form>
+      </div>
     </section>
 
-    <nav></nav>
-    <main></main>
-    <aside></aside>
+    <section class="pricing flex flex_pricing" id="page-pricing">
+      <div class="pricing__wrapper flex flex_pricing-wrapper">
+        <h2 class="pricing__h2 base__desk-h2">Формы подписки</h2>
 
-    <footer class="grid grid_footer footer">
-      <div class="footer__top grid grid_footer__top">
-        <div class="footer__section about">
-          <h4 class="base__desk-h4 footer__header">О нас</h4>
-          <ul class="about__list typography typography__text-size_1">
-            <li><a class="about__link" href="#">История компании</a></li>
-            <li><a class="about__link" href="#">Карьера</a></li>
-            <li><a class="about__link" href="#">Особенности</a></li>
-            <li><a class="about__link" href="#">Пресса</a></li>
-          </ul>
-        </div>
+        <div class="pricing__cards flex flex_pricing__cards">
+          <div class="pricing__card plan-card bg-card-free flex flex_pricing__card">
+            <h3 class="plan-card__h3 base__desk-h3">Бесплатная</h3>
+            <p class="plan-card__price typography typography__text-size_3"><span
+                class="plan-card__price-value ">0</span>Руб.</p>
+            <a class="plan-card__link btn typography typography__text_size_1" href="#">Оформить</a>
+            <p class="plan-card__footer typography typography__text-size_small">Оплата в месяц. Бесплатный тариф
+              предоставляет доступ ко всей коллекции музыки.
+              Присутствует реклама</p>
+          </div>
 
-        <div class="footer__section service">
-          <h4 class="base__desk-h4 footer__header">Поддержка</h4>
-          <ul class="service__list typography typography__text-size_1">
-            <li><a class="service__link" href="#">База знаний</a></li>
-            <li><a class="service__link" href="#">Тарифы</a></li>
-            <li><a class="service__link" href="#">Мобильное приложение</a></li>
-            <li><a class="service__link" href="#">Условия использования</a></li>
-          </ul>
-        </div>
+          <div class="pricing__card plan-card bg-card-standart flex flex_pricing__card">
+            <h3 class="plan-card__h3 base__desk-h3">Стандартная</h3>
+            <p class="plan-card__price typography typography__text-size_3"><span
+                class="plan-card__price-value ">500</span>Руб.</p>
+            <a class="plan-card__link btn typography typography__text_size_1" href="#">Оформить</a>
+            <p class="plan-card__footer typography typography__text-size_small">Оплата в месяц. Стандартный тариф
+              предоставляет доступ ко всей коллекции музыки в среднем качестве</p>
+          </div>
 
-        <div class="footer__section contacts">
-          <h4 class="base__desk-h4 footer__header">Контакты</h4>
-          <div class="contacts__info typography typography__text-size_1">
-            <p class="contacts__element">hello@music.box</p>
-            <p class="contacts__element">Russia, Moscow. Music Box studio</p>
-            <p class="contacts__element">+ 7 499 999 99 99</p>
+          <div class="pricing__card plan-card bg-card-premium flex flex_pricing__card">
+            <h3 class="plan-card__h3 base__desk-h3">Премиум</h3>
+            <p class="plan-card__price typography typography__text-size_3"><span
+                class="plan-card__price-value ">0</span>Руб.</p>
+            <a class="plan-card__link btn typography typography__text_size_1" href="#">Оформить</a>
+            <p class="plan-card__footer typography typography__text-size_small">Оплата в месяц. Премиум тариф
+              предоставляет доступ ко всей коллекции музыки в высоком качестве</p>
           </div>
         </div>
 
-        <div class="footer__section socials">
-          <h4 class="base__desk-h4 footer__header">Подписывайтесь</h4>
-          <ul class="socials__list grid grid_footer__socials">
-            <li><a href="#"><img class="socials__img" src="./images/Google+.png" alt="Google plus link"></a></li>
-            <li><a href="#"><img class="socials__img" src="./images/Twitter.png" alt="Twitter link"></a></li>
-          </ul>
+        <p class="pricing__footer typography typography__text-size_1">На всех тарифах возможно прослушивание музыки с
+          мобильных устройств. На премиум
+          тарифе вы можете скачать все
+          композиции
+          на ваше устройство и слушать музыку без подключения к интернету</p>
+      </div>
+    </section>
+  </main>
+
+  <nav></nav>
+  <aside></aside>
+
+  <footer class="grid grid_footer footer">
+    <div class="footer__top grid grid_footer__top">
+      <div class="footer__section about">
+        <h4 class="base__desk-h4 footer__header">О нас</h4>
+        <ul class="about__list typography typography__text-size_1">
+          <li><a class="about__link" href="#">История компании</a></li>
+          <li><a class="about__link" href="#">Карьера</a></li>
+          <li><a class="about__link" href="#">Особенности</a></li>
+          <li><a class="about__link" href="#">Пресса</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__section service">
+        <h4 class="base__desk-h4 footer__header">Поддержка</h4>
+        <ul class="service__list typography typography__text-size_1">
+          <li><a class="service__link" href="#">База знаний</a></li>
+          <li><a class="service__link" href="#">Тарифы</a></li>
+          <li><a class="service__link" href="#">Мобильное приложение</a></li>
+          <li><a class="service__link" href="#">Условия использования</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__section contacts">
+        <h4 class="base__desk-h4 footer__header">Контакты</h4>
+        <div class="contacts__info typography typography__text-size_1">
+          <p class="contacts__element">hello@music.box</p>
+          <p class="contacts__element">Russia, Moscow. Music Box studio</p>
+          <p class="contacts__element">+ 7 499 999 99 99</p>
         </div>
       </div>
 
-      <div class="footer__bottom bottom">
-        <ul class="footer__bottom-list grid grid_footer__bottom-list typography typography__text-size_1">
-          <li><a class="bottom__link" href="#">Магазин</a></li>
-          <li><a class="bottom__link" href="#">Обслуживание</a></li>
-          <li><a class="bottom__link" href="#">Блог</a></li>
-          <li><a class="bottom__link" href="#">Поддержка</a></li>
-          <li><a class="bottom__link" href="#">Контакты</a></li>
+      <div class="footer__section socials">
+        <h4 class="base__desk-h4 footer__header">Подписывайтесь</h4>
+        <ul class="socials__list grid grid_footer__socials">
+          <li><a href="#"><img class="socials__img" src="./images/Google+.png" alt="Google plus link"></a></li>
+          <li><a href="#"><img class="socials__img" src="./images/Twitter.png" alt="Twitter link"></a></li>
         </ul>
       </div>
-    </footer>
-  </body>
+    </div>
+
+    <div class="footer__bottom bottom">
+      <ul class="footer__bottom-list grid grid_footer__bottom-list typography typography__text-size_1">
+        <li><a class="bottom__link" href="#">Магазин</a></li>
+        <li><a class="bottom__link" href="#">Обслуживание</a></li>
+        <li><a class="bottom__link" href="#">Блог</a></li>
+        <li><a class="bottom__link" href="#">Поддержка</a></li>
+        <li><a class="bottom__link" href="#">Контакты</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
 </html>
