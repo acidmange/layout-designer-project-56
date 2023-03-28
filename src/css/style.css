@@ -60,6 +60,12 @@
   width: 100%;
 }
 
+.main {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 .typography {
   font-weight: 400;
 }
@@ -117,6 +123,37 @@
 
 .m-l-24 {
   margin-left: 24px;
+}
+
+.bg-banner {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-card-free {
+  background-image: url("../images/subscribe_1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-card-standart {
+  background-image: url("../images/subscribe_2.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-card-premium {
+  background-image: url("../images/subscribe_3.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.btn {
+  width: 100%;
+  padding: 20px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
 }
 
 .header {
@@ -255,9 +292,6 @@
   position: relative;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url("../images/banner.png");
-  background-position: center;
-  background-size: cover;
 }
 .banner__h1 {
   margin: 0;
@@ -294,24 +328,82 @@
   font-family: "Roboto", sans-serif;
 }
 .banner__button {
-  width: 100%;
   height: 57px;
-  padding: 20px 30px;
-  border-radius: 5px;
   background-color: #34c176;
   border: none;
 }
 .banner__button_text {
   font-weight: 400;
   font-family: Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
   font-size: 13.3px;
   line-height: 15.3px;
   color: #fff;
 }
 
+.pricing {
+  padding-top: 100px;
+}
+.pricing__cards {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+.pricing__card {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  width: 318.6666666667px;
+}
+.pricing__h2 {
+  margin: 0;
+  color: #fff;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.pricing__footer {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.plan-card__h3 {
+  margin-bottom: 200px;
+  margin-top: 24px;
+  line-height: 36px;
+  color: #fff;
+}
+.plan-card__link {
+  border: 1px solid #fff;
+  background-color: transparent;
+  text-decoration: none;
+  color: #fff;
+  box-sizing: border-box;
+}
+.plan-card__footer {
+  color: #fff;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+.plan-card__price {
+  color: #fff;
+  margin-bottom: 56px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+.plan-card__price-value {
+  font-size: 64px;
+  line-height: 1em;
+  position: relative;
+  left: -16px;
+  top: 17px;
+}
+
 @media (min-width: 1240px) {
   .banner__wrapper {
+    max-width: 1200px;
+  }
+  .pricing__wrapper {
     max-width: 1200px;
   }
 }
@@ -382,6 +474,28 @@
     height: 50px;
     box-sizing: border-box;
   }
+  .pricing {
+    width: 100%;
+  }
+  .pricing__wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .pricing__card {
+    width: 100%;
+  }
+  .pricing__h2 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .plan-card__h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
   .footer {
     width: 100%;
   }
@@ -436,6 +550,9 @@
 .flex_body {
   flex-direction: column;
 }
+.flex_main {
+  flex-direction: column;
+}
 .flex_header {
   justify-content: space-between;
   flex-wrap: wrap;
@@ -460,6 +577,26 @@
   align-items: center;
 }
 .flex_banner {
+  justify-content: center;
+}
+.flex_banner-wrapper {
+  flex-direction: column;
+  align-items: center;
+}
+.flex_pricing {
+  justify-content: center;
+}
+.flex_pricing-wrapper {
+  flex-direction: column;
+  align-items: center;
+}
+.flex_pricing__cards {
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+.flex_pricing__card {
   flex-direction: column;
   align-items: center;
 }
@@ -491,6 +628,37 @@
 
 .m-l-24 {
   margin-left: 24px;
+}
+
+.bg-banner {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-card-free {
+  background-image: url("../images/subscribe_1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-card-standart {
+  background-image: url("../images/subscribe_2.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-card-premium {
+  background-image: url("../images/subscribe_3.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.btn {
+  width: 100%;
+  padding: 20px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */
