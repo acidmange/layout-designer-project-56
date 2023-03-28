@@ -7,6 +7,10 @@
     flex-direction: column;
   }
 
+  &_main {
+    flex-direction: column;
+  }
+
   &_header {
     justify-content: space-between;
     flex-wrap: wrap;
@@ -37,8 +41,33 @@
   }
 
   &_banner {
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+
+    &-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &_pricing {
+    justify-content: center;
+
+    &-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__cards {
+      flex-wrap: wrap;
+      justify-content: center;
+      column-gap: 50px;
+      row-gap: 50px;
+    }
+
+    &__card {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   @media (max-width: $breakpoint-mob-max-w) {
