@@ -17,3 +17,36 @@
 .m-l-24 {
   margin-left: 24px;
 }
+
+// Backgrounds
+
+.bg-banner {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-card-free {
+  background-image: url("../images/subscribe_1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-card-standart {
+  background-image: url("../images/subscribe_2.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-card-premium {
+  background-image: url("../images/subscribe_3.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.btn {
+  width: 100%;
+  padding: 20px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
