@@ -2,17 +2,17 @@
 
 .news {
   padding-top: 100px;
-  
+
   &__wrapper {
     width: 100%;
     box-sizing: border-box;
   }
-  
+
   &__items {
     width: 100%;
     margin-top: 48px;
   }
-  
+
   &__item {
     &:nth-child(2n) {
       & .news-elmnt__author {
