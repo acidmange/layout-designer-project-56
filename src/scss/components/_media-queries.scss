@@ -13,6 +13,10 @@ $breakpoint-desk-large-min-w: 1240px;
   .pricing__wrapper {
     max-width: 1200px;
   }
+
+  .news__wrapper {
+    max-width: 1200px;
+  }
 }
 
 @media (max-width: $breakpoint-mob-max-w) {
@@ -115,6 +119,39 @@ $breakpoint-desk-large-min-w: 1240px;
   .plan-card {
     &__h3 {
       @include mob-h-shwt($mob-h3-f-size, $mob-h3-l-height, $mob-h3-f-weight, $mob-h3-t-transform);
+    }
+  }
+
+  .news {
+    width: 100%;
+
+    &__h2 {
+      @include mob-h-shwt($mob-h2-f-size, $mob-h2-l-height, $mob-h2-f-weight, $mob-h2-t-transform);
+    }
+
+    &__wrapper {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    &-elmnt {
+      &__wrapper {
+        margin-top: 50px;
+      }
+
+      &__h3 {
+        @include mob-h-shwt($mob-h3-f-size, $mob-h3-l-height, $mob-h3-f-weight, $mob-h3-t-transform);
+        font-weight: 400;
+        text-transform: capitalize;
+      }
+
+      &__p {
+        margin-top: 16px;
+      }
+
+      &__author {
+        margin-top: 24px;
+      }
     }
   }
 
