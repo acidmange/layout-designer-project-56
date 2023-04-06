@@ -10,12 +10,16 @@
 // Import typography styles
 @import "./base/typography";
 
+// Import Framework styles
+@import "./components/framework";
+
 // Import components
 @import "./components/framework";
 @import "./components/header";
 @import "./components/footer";
 @import "./components/banner";
 @import "./components/pricing";
+@import "./components/news";
 
 //Import mixins
 @import "./components/mixins";
@@ -27,5 +31,3 @@
 @import "./layouts/grid";
 @import "./layouts/flex";
 
-// Import Framework styles
-@import "./components/framework";
