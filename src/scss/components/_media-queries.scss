@@ -17,6 +17,10 @@ $breakpoint-desk-large-min-w: 1240px;
   .news__wrapper {
     max-width: 1200px;
   }
+
+  .mob-app__wrapper {
+    max-width: 1200px;
+  }
 }
 
 @media (max-width: $breakpoint-mob-max-w) {
