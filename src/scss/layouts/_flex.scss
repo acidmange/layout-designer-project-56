@@ -52,7 +52,7 @@
   &_pricing {
     justify-content: center;
 
-    &-wrapper {
+    &__wrapper {
       flex-direction: column;
       align-items: center;
     }
@@ -97,6 +97,19 @@
     }
   }
 
+  &_mob-app {
+    justify-content: center;
+
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__columns {
+      column-gap: 144px;
+    }
+  }
+
   @media (max-width: $breakpoint-mob-max-w) {
     &_header {
       flex-direction: column;
@@ -129,6 +142,13 @@
             margin-top: 16px;
           }
         }
+      }
+    }
+
+    &_mob-app {
+      &__columns {
+        flex-direction: column-reverse;
+        align-items: center;
       }
     }
   }
