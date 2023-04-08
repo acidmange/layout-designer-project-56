@@ -149,6 +149,10 @@
   background-size: cover;
 }
 
+.bg-footer-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
 .btn {
   padding: 20px 30px;
   border-radius: 5px;
@@ -191,6 +195,10 @@
   background-image: url("../images/subscribe_3.png");
   background-position: center;
   background-size: cover;
+}
+
+.bg-footer-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
 .btn {
@@ -255,7 +263,6 @@
 }
 
 .footer {
-  background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
   overflow: hidden;
 }
 .footer__top {
@@ -276,6 +283,10 @@
 }
 .footer__header {
   color: #fff;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
   margin: 0 0 15px 0;
 }
 .footer__bottom {
