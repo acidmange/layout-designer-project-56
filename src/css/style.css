@@ -261,8 +261,8 @@
 .footer__top {
   padding-left: 120px;
   padding-right: 120px;
-  padding-top: 62px;
-  padding-bottom: 72px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   position: relative;
 }
 .footer__top::after {
@@ -282,8 +282,8 @@
   margin-top: 1px;
   padding-left: 120px;
   padding-right: 120px;
-  padding-top: 40px;
-  padding-bottom: 49px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .footer__bottom-list {
   list-style-type: none;
@@ -502,6 +502,32 @@
   color: #F89202;
 }
 
+.mob-app {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.mob-app__h2 {
+  color: #fff;
+  margin: 0;
+}
+.mob-app__columns {
+  margin-top: 48px;
+}
+.mob-app__description {
+  max-width: 600px;
+}
+.mob-app__button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #95390c;
+  border-radius: 32px;
+  padding: 16px 40px;
+}
+.mob-app__button-text {
+  text-transform: capitalize;
+  color: #fff;
+}
+
 @media (min-width: 1240px) {
   .banner__wrapper {
     max-width: 1200px;
@@ -510,6 +536,9 @@
     max-width: 1200px;
   }
   .news__wrapper {
+    max-width: 1200px;
+  }
+  .mob-app__wrapper {
     max-width: 1200px;
   }
 }
@@ -632,6 +661,19 @@
   .news-elmnt__author {
     margin-top: 24px;
   }
+  .mob-app {
+    width: 100%;
+  }
+  .mob-app__wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .mob-app__h2 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
   .footer {
     width: 100%;
   }
@@ -722,7 +764,7 @@
 .flex_pricing {
   justify-content: center;
 }
-.flex_pricing-wrapper {
+.flex_pricing__wrapper {
   flex-direction: column;
   align-items: center;
 }
@@ -757,6 +799,16 @@
 .flex_news__item:nth-child(2n) {
   flex-direction: row-reverse;
 }
+.flex_mob-app {
+  justify-content: center;
+}
+.flex_mob-app__wrapper {
+  flex-direction: column;
+  align-items: center;
+}
+.flex_mob-app__columns {
+  column-gap: 144px;
+}
 @media (max-width: 414px) {
   .flex_header {
     flex-direction: column;
@@ -782,6 +834,10 @@
   }
   .flex_news__item:nth-child(2n) .news-elmnt__author {
     margin-top: 16px;
+  }
+  .flex_mob-app__columns {
+    flex-direction: column-reverse;
+    align-items: center;
   }
 }
 
