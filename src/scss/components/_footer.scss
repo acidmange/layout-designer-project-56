@@ -1,14 +1,13 @@
 // Footer styles
 
 .footer {
-  background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
   overflow: hidden;
 
   &__top {
     padding-left: 120px;
     padding-right: 120px;
-    padding-top: 62px;
-    padding-bottom: 72px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     position: relative;
   }
 
@@ -24,6 +23,11 @@
 
   &__header {
     color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+
     margin: 0 0 15px 0;
   }
 
@@ -31,8 +35,8 @@
     margin-top: 1px;
     padding-left: 120px;
     padding-right: 120px;
-    padding-top: 40px;
-    padding-bottom: 49px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 
     &-list {
       list-style-type: none;
