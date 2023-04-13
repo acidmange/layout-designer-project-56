@@ -1,34 +1,43 @@
+// Common styles
+
 // Import variables
-@import "./base/variables";
+@import "./common/base/variables";
 
 // Import fonts
-@import "./base/fonts";
+@import "./common/base/fonts";
 
 // Import base styles
-@import "./base/general";
+@import "./common/base/general";
 
 // Import typography styles
-@import "./base/typography";
+@import "./common/base/typography";
 
 // Import Framework styles
-@import "./components/framework";
+@import "./common/components/framework";
 
-// Import components
-@import "./components/framework";
-@import "./components/header";
-@import "./components/footer";
-@import "./components/banner";
-@import "./components/pricing";
-@import "./components/news";
-@import "./components/mob-app";
+// Import mixins
+@import "./common/components/mixins";
 
-//Import mixins
-@import "./components/mixins";
+// Import framewok styles
+@import "./common/components/framework";
 
-//Import media-queries
-@import "./components/media-queries";
+// Import common components
+@import "./common/components/header";
+@import "./common/components/footer";
 
-// Import layout styles
-@import "./layouts/grid";
-@import "./layouts/flex";
+// Page 1 styles
 
+// Import page 1 components
+@import "./page1/components/banner";
+@import "./page1/components/pricing";
+@import "./page1/components/news";
+@import "./page1/components/mob-app";
+
+//Import page 1 media-queries
+@import "./page1/components/media-queries";
+
+// Import page 1 layout styles
+@import "./page1/layouts/grid";
+@import "./page1/layouts/flex";
+
+// Page 2 styles
