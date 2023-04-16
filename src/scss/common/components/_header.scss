@@ -1,14 +1,16 @@
 // Header Styles
 
 .header {
-  padding-left: 120px;
-  padding-right: 120px;
   margin-top: 25px;
 
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
+
+  &__wrapper {
+    width: 100%;
+  }
 
   &__link {
     font-family: 'Roboto', sans-serif;
@@ -17,6 +19,65 @@
 
   &__link-wrap {
     margin-left: 16px;
+  }
+
+  @media (min-width: $breakpoint-desk-large-min-w) {
+    .header__wrapper {
+      max-width: 1200px;
+    }
+  }
+
+  @media (max-width: $breakpoint-mob-max-w) {
+    .header {
+      &__wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+      }
+
+      &__link-wrap {
+        margin-left: 16px;
+      }
+
+      &__link {
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+      }
+
+      &__li-item {
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+      }
+    }
+
+    .header-form {
+      &__input {
+        width: 100%;
+      }
+    }
+
+    .header-form-wrapper {
+      margin-top: 18px;
+      width: 100%;
+    }
+
+    .logo {
+      &__image {
+        margin-right: 0;
+      }
+
+      &__wrapper {
+        margin-bottom: 17px;
+      }
+    }
+
+    .nav {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+    }
   }
 }
 
