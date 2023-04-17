@@ -125,6 +125,12 @@
   margin-left: 24px;
 }
 
+.bg-cover {
+  background-image: url("../images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+}
+
 .bg-banner {
   background-image: url("../images/banner.png");
   background-position: center;
@@ -335,6 +341,33 @@
 .bottom__link {
   text-decoration: none;
   color: #e0e0e0;
+}
+
+.flex-common_header {
+  justify-content: center;
+}
+.flex-common_header__wrapper {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flex-common_header__logo {
+  flex-wrap: wrap;
+  align-items: center;
+}
+.flex-common_header__logo-wrapper {
+  flex-wrap: wrap;
+}
+.flex-common_header__list {
+  flex-wrap: wrap;
+  column-gap: 24px;
+}
+.flex-common_header__li-item {
+  justify-content: center;
+  align-items: center;
+}
+.flex-common_header__link {
+  justify-content: center;
+  align-items: center;
 }
 
 .banner {
@@ -703,32 +736,6 @@
 .flex-index_main {
   flex-direction: column;
 }
-.flex-index_header {
-  justify-content: center;
-}
-.flex-index_header__wrapper {
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.flex-index_header__logo {
-  flex-wrap: wrap;
-  align-items: center;
-}
-.flex-index_header__logo-wrapper {
-  flex-wrap: wrap;
-}
-.flex-index_header__list {
-  flex-wrap: wrap;
-  column-gap: 24px;
-}
-.flex-index_header__li-item {
-  justify-content: center;
-  align-items: center;
-}
-.flex-index_header__link {
-  justify-content: center;
-  align-items: center;
-}
 .flex-index_banner {
   justify-content: center;
 }
@@ -814,6 +821,13 @@
     flex-direction: column-reverse;
     align-items: center;
   }
+}
+
+.flex {
+  display: flex;
+}
+.flex-artist_main {
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */
