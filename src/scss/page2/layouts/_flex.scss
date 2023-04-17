@@ -4,6 +4,8 @@
   display: flex;
 
   &-artist {
-    
+    &_main {
+      flex-direction: column;
+    }
   }
 }
