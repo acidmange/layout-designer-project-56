@@ -1,26 +1,19 @@
 // Common styles
 
-// Import variables
-@import "./common/base/variables";
-
-// Import fonts
-@import "./common/base/fonts";
-
 // Import base styles
+@import "./common/base/variables";
+@import "./common/base/fonts";
 @import "./common/base/general";
-
-// Import typography styles
 @import "./common/base/typography";
 
-// Import framework styles
-@import "./common/components/framework";
-
-// Import mixins
-@import "./common/components/mixins";
-
 // Import common components
+@import "./common/components/framework";
+@import "./common/components/mixins";
 @import "./common/components/header";
 @import "./common/components/footer";
+
+// Import common layouts
+@import "./common/layouts/flex";
 
 // Page 1 styles
 
@@ -29,8 +22,6 @@
 @import "./page1/components/pricing";
 @import "./page1/components/news";
 @import "./page1/components/mob-app";
-
-//Import page 1 media-queries
 @import "./page1/components/media-queries";
 
 // Import page 1 layout styles
@@ -38,3 +29,10 @@
 @import "./page1/layouts/flex";
 
 // Page 2 styles
+
+// Import page 2 components
+@import "./page2/components/cover";
+@import "./page2/components/media-queries";
+
+// Import page 2 layout styles
+@import "./page2/layouts/flex";
