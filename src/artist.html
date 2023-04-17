@@ -9,26 +9,26 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body class="base body flex flex_body">
-  <header class="header flex flex_header">
-    <div class="header__wrapper flex flex_header__wrapper">
-      <div class="header__logo logo typography flex flex_header__logo">
-        <div class="logo__wrapper flex flex_header__logo-wrapper">
+<body class="base body flex flex-index_body">
+  <header class="header flex flex-common_header">
+    <div class="header__wrapper flex flex-common_header__wrapper">
+      <div class="header__logo logo typography flex flex-common_header__logo">
+        <div class="logo__wrapper flex flex-common_header__logo-wrapper">
           <img class="logo__image" src="./images/logo.svg" alt="Music box logo">
-          <div class="flex flex_header__link header__link-wrap">
+          <div class="flex flex-common_header__link header__link-wrap">
             <a class="typography__nav-link header__link" href="#">Music box</a>
           </div>
         </div>
 
-        <ul class="typography nav flex flex_header__list">
-          <li class="flex flex_header__li-item header__li-item"><a class="typography__nav-link nav__chosen"
+        <ul class="typography nav flex flex-common_header__list">
+          <li class="flex flex-common_header__li-item header__li-item"><a class="typography__nav-link nav__chosen"
               href="#">Главная</a></li>
-          <li class="flex flex_header__li-item header__li-item"><a class="typography__nav-link nav__link"
+          <li class="flex flex-common_header__li-item header__li-item"><a class="typography__nav-link nav__link"
               href="#">Каталог</a>
           </li>
-          <li class="flex flex_header__li-item header__li-item"><a class="typography__nav-link nav__link"
+          <li class="flex flex-common_header__li-item header__li-item"><a class="typography__nav-link nav__link"
               href="#">Исполнители</a></li>
-          <li class="flex flex_header__li-item header__li-item"><a class="typography__nav-link nav__link"
+          <li class="flex flex-common_header__li-item header__li-item"><a class="typography__nav-link nav__link"
               href="#">Контакты</a></li>
         </ul>
       </div>
@@ -43,8 +43,11 @@
       </div>
     </div>
   </header>
-  <main>
 
+  <main class="main flex flex-artist_main">
+    <section class="cover bg-cover flex flex-artist_cover" id="page-description">
+      <div class="cover__wrapper flex flex-artist_cover-wrapper"></div>
+    </section>
   </main>
   <footer>
 
