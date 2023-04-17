@@ -12,39 +12,6 @@
       flex-direction: column;
     }
 
-    &_header {
-      justify-content: center;
-
-      &__wrapper {
-        justify-content: space-between;
-        flex-wrap: wrap;
-      }
-
-      &__logo {
-        flex-wrap: wrap;
-        align-items: center;
-      }
-
-      &__logo-wrapper {
-        flex-wrap: wrap;
-      }
-
-      &__list {
-        flex-wrap: wrap;
-        column-gap: 24px;
-      }
-
-      &__li-item {
-        justify-content: center;
-        align-items: center;
-      }
-
-      &__link {
-        justify-content: center;
-        align-items: center;
-      }
-    }
-
     &_banner {
       justify-content: center;
 
