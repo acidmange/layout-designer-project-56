@@ -14,6 +14,7 @@
 
 // Import common layouts
 @import "./common/layouts/flex";
+@import "./common/layouts/grid";
 
 // Page 1 styles
 
@@ -25,7 +26,6 @@
 @import "./page1/components/media-queries";
 
 // Import page 1 layout styles
-@import "./page1/layouts/grid";
 @import "./page1/layouts/flex";
 
 // Page 2 styles
