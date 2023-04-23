@@ -1,37 +1,65 @@
 // Common flex styles
 
 .flex {
-  &-common {
-    &_header {
-      justify-content: center;
+  display: flex;
 
-      &__wrapper {
-        justify-content: space-between;
-        flex-wrap: wrap;
+  &-body {
+    flex-direction: column;
+  }
+
+  &-main {
+    flex-direction: column;
+  }
+
+  &-header {
+    justify-content: center;
+
+    &__wrapper {
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    &__logo {
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    &__link-wrap {
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__list {
+      flex-wrap: wrap;
+      column-gap: 24px;
+    }
+
+    &__li-item {
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &-logo {
+    &__wrapper {
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: $breakpoint-mob-max-w) {
+    &-header {
+      flex-direction: column;
+      align-items: start;
+
+      &__list {
+        flex-direction: column;
+        align-items: start;
+        row-gap: 3px;
       }
 
       &__logo {
-        flex-wrap: wrap;
-        align-items: center;
-      }
-
-      &__logo-wrapper {
-        flex-wrap: wrap;
-      }
-
-      &__list {
-        flex-wrap: wrap;
-        column-gap: 24px;
-      }
-
-      &__li-item {
-        justify-content: center;
-        align-items: center;
-      }
-
-      &__link {
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
+        align-items: start;
       }
     }
   }
