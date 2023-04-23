@@ -182,6 +182,22 @@
 .header__link-wrap {
   margin-left: 16px;
 }
+.header__form-input {
+  background-color: #3c3b3d;
+  border: none;
+  border-radius: 50px;
+  padding: 5px 10px;
+  width: 228px;
+}
+.header__form-input::placeholder {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-size: 13.3px;
+  line-height: 15px;
+  text-align: left;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
 @media (min-width: 1240px) {
   .header .header__wrapper {
     max-width: 1200px;
@@ -206,11 +222,11 @@
     font-size: 11px;
     line-height: 13px;
   }
-  .header .header-form__input {
+  .header .header__form-wrapper {
+    margin-top: 18px;
     width: 100%;
   }
-  .header .header-form-wrapper {
-    margin-top: 18px;
+  .header .header__form-input {
     width: 100%;
   }
   .header .logo__image {
@@ -243,25 +259,6 @@
 }
 .nav__chosen {
   color: #fff;
-}
-
-.header-form__input {
-  background-color: #3c3b3d;
-  border: none;
-  border-radius: 50px;
-}
-.header-form__input {
-  padding: 5px 10px;
-  width: 228px;
-}
-.header-form__input::placeholder {
-  font-family: Arial, sans-serif;
-  font-weight: 400;
-  font-size: 13.3px;
-  line-height: 15px;
-  text-align: left;
-  text-transform: uppercase;
-  vertical-align: middle;
 }
 
 .footer {
@@ -343,31 +340,84 @@
   color: #e0e0e0;
 }
 
-.flex-common_header {
+.flex {
+  display: flex;
+}
+.flex-body {
+  flex-direction: column;
+}
+.flex-main {
+  flex-direction: column;
+}
+.flex-header {
   justify-content: center;
 }
-.flex-common_header__wrapper {
+.flex-header__wrapper {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.flex-common_header__logo {
+.flex-header__logo {
   flex-wrap: wrap;
   align-items: center;
 }
-.flex-common_header__logo-wrapper {
-  flex-wrap: wrap;
+.flex-header__link-wrap {
+  justify-content: center;
+  align-items: center;
 }
-.flex-common_header__list {
+.flex-header__list {
   flex-wrap: wrap;
   column-gap: 24px;
 }
-.flex-common_header__li-item {
+.flex-header__li-item {
   justify-content: center;
   align-items: center;
 }
-.flex-common_header__link {
-  justify-content: center;
-  align-items: center;
+.flex-logo__wrapper {
+  flex-wrap: wrap;
+}
+@media (max-width: 414px) {
+  .flex-header {
+    flex-direction: column;
+    align-items: start;
+  }
+  .flex-header__list {
+    flex-direction: column;
+    align-items: start;
+    row-gap: 3px;
+  }
+  .flex-header__logo {
+    flex-direction: column;
+    align-items: start;
+  }
+}
+
+.grid {
+  display: grid;
+}
+.grid-footer {
+  grid-template-rows: auto auto;
+}
+.grid-footer__top {
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 40px;
+}
+.grid-footer__socials {
+  grid-template-columns: min-content min-content;
+  column-gap: 24px;
+}
+.grid-footer__bottom-list {
+  grid-template-columns: min-content min-content min-content min-content min-content;
+  column-gap: 16px;
+}
+@media (max-width: 414px) {
+  .grid-footer__top {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  .grid-footer__bottom-list {
+    grid-template-columns: 1fr;
+    row-gap: 16px;
+  }
 }
 
 .banner {
@@ -698,126 +748,75 @@
     padding-bottom: 47px;
   }
 }
-.grid {
-  display: grid;
-}
-.grid_footer {
-  grid-template-rows: auto auto;
-}
-.grid_footer__top {
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 40px;
-}
-.grid_footer__socials {
-  grid-template-columns: min-content min-content;
-  column-gap: 24px;
-}
-.grid_footer__bottom-list {
-  grid-template-columns: min-content min-content min-content min-content min-content;
-  column-gap: 16px;
-}
-@media (max-width: 414px) {
-  .grid_footer__top {
-    grid-template-columns: 1fr;
-    row-gap: 30px;
-  }
-  .grid_footer__bottom-list {
-    grid-template-columns: 1fr;
-    row-gap: 16px;
-  }
-}
-
-.flex {
-  display: flex;
-}
-.flex-index_body {
-  flex-direction: column;
-}
-.flex-index_main {
-  flex-direction: column;
-}
-.flex-index_banner {
+.flex-banner {
   justify-content: center;
 }
-.flex-index_banner-wrapper {
+.flex-banner__wrapper {
   flex-direction: column;
   align-items: center;
 }
-.flex-index_pricing {
+.flex-pricing {
   justify-content: center;
 }
-.flex-index_pricing__wrapper {
+.flex-pricing__wrapper {
   flex-direction: column;
   align-items: center;
 }
-.flex-index_pricing__cards {
+.flex-pricing__cards {
   flex-wrap: wrap;
   justify-content: center;
   column-gap: 50px;
   row-gap: 50px;
 }
-.flex-index_pricing__card {
+.flex-pricing__card {
   flex-direction: column;
   align-items: center;
 }
-.flex-index_news {
+.flex-news {
   justify-content: center;
 }
-.flex-index_news__wrapper {
+.flex-news__wrapper {
   flex-direction: column;
   align-items: center;
 }
-.flex-index_news__author {
+.flex-news__author {
   column-gap: 16px;
   align-items: center;
 }
-.flex-index_news__items {
+.flex-news__items {
   flex-direction: column;
   row-gap: 65px;
 }
-.flex-index_news__item {
+.flex-news__item {
   column-gap: 50px;
 }
-.flex-index_news__item:nth-child(2n) {
+.flex-news__item:nth-child(2n) {
   flex-direction: row-reverse;
 }
-.flex-index_mob-app {
+.flex-mob-app {
   justify-content: center;
 }
-.flex-index_mob-app__wrapper {
+.flex-mob-app__wrapper {
   flex-direction: column;
   align-items: center;
 }
-.flex-index_mob-app__columns {
+.flex-mob-app__columns {
   column-gap: 144px;
 }
 @media (max-width: 414px) {
-  .flex-index_header {
-    flex-direction: column;
-    align-items: start;
-  }
-  .flex-index_header__list {
-    flex-direction: column;
-    align-items: start;
-    row-gap: 3px;
-  }
-  .flex-index_header__logo {
-    flex-direction: column;
-    align-items: start;
-  }
-  .flex-index_news__items {
+  .flex-news__items {
     row-gap: 64px;
   }
-  .flex-index_news__item {
+  .flex-news__item {
     flex-direction: column;
   }
-  .flex-index_news__item:nth-child(2n) {
+  .flex-news__item:nth-child(2n) {
     flex-direction: column;
   }
-  .flex-index_news__item:nth-child(2n) .news-elmnt__author {
+  .flex-news__item:nth-child(2n) .news-elmnt__author {
     margin-top: 16px;
   }
-  .flex-index_mob-app__columns {
+  .flex-mob-app__columns {
     flex-direction: column-reverse;
     align-items: center;
   }
