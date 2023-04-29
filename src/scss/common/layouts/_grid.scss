@@ -4,8 +4,6 @@
   display: grid;
 
   &-footer {
-    grid-template-rows: auto auto;
-
     &__top {
       grid-template-columns: repeat(4, 1fr);
       column-gap: 40px;
