@@ -46,6 +46,16 @@
     }
   }
 
+  &-footer {
+    &__top-wrapper {
+      justify-content: center;
+    }
+
+    &__bottom-wrapper {
+      justify-content: center;
+    }
+  }
+
   @media (max-width: $breakpoint-mob-max-w) {
     &-header {
       flex-direction: column;
