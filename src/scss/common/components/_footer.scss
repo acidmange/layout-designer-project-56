@@ -3,15 +3,22 @@
 .footer {
   overflow: hidden;
 
+  &__wrapper {
+    width: 100%;
+  }
+
   &__top {
-    padding-left: 120px;
-    padding-right: 120px;
+    width: 100%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     position: relative;
   }
 
-  &__top::after {
+  &__top-wrapper {
+    position: relative;
+  }
+
+  &__top-wrapper::after {
     content: "";
     position: absolute;
     bottom: -1px;
@@ -32,9 +39,8 @@
   }
 
   &__bottom {
+    width: 100%;
     margin-top: 1px;
-    padding-left: 120px;
-    padding-right: 120px;
     padding-top: 2rem;
     padding-bottom: 2rem;
 
