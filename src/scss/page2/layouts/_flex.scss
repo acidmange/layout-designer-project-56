@@ -3,9 +3,35 @@
 .flex {
   display: flex;
 
-  &-artist {
-    &_main {
+  &-cover {
+    justify-content: center;
+
+    &__wrapper {
       flex-direction: column;
+    }
+
+    &__mix-btn {
+      align-items: center;
+      column-gap: 16px;
+    }
+
+    &__add-btn {
+      align-items: center;
+      column-gap: 16px;
+    }
+
+    &__buttons {
+      display: flex;
+      column-gap: 1.5rem;
+    }
+  }
+
+  @media (max-width: $breakpoint-mob-max-w) {
+    &-cover {
+      &__buttons {
+        flex-direction: column;
+        row-gap: 1.5rem;
+      }
     }
   }
 }
