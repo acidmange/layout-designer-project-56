@@ -9,28 +9,28 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body class="base body flex flex-index_body">
+<body class="base body flex flex-body">
   <header class="header flex flex-header">
     <div class="header__wrapper flex flex-header__wrapper">
       <div class="header__logo logo typography flex flex-header__logo">
         <div class="logo__wrapper flex flex-logo__wrapper">
           <img class="logo__image" src="./images/logo.svg" alt="Music box logo">
           <div class="flex flex-header__link-wrap header__link-wrap">
-            <a class="typography__nav-link header__link" href="#">Music box</a>
+            <a class="typography__nav-link header__link f-w-700 l-h-12_89" href="#">Music box</a>
           </div>
         </div>
 
         <ul class="typography nav flex flex-header__list">
-          <li class="flex flex-header__li-item header__li-item"><a class="typography__nav-link nav__chosen"
-              href="#">Главная</a>
+          <li class="flex flex-header__li-item header__li-item f-w-700 l-h-12_89"><a
+              class="typography__nav-link nav__link" href="#">Главная</a>
           </li>
-          <li class="flex flex-header__li-item header__li-item"><a class="typography__nav-link nav__link"
-              href="#">Каталог</a>
+          <li class="flex flex-header__li-item header__li-item f-w-700 l-h-12_89"><a
+              class="typography__nav-link nav__link" href="#">Каталог</a>
           </li>
-          <li class="flex flex-header__li-item header__li-item"><a class="typography__nav-link nav__link"
-              href="#">Исполнители</a></li>
-          <li class="flex flex-header__li-item header__li-item"><a class="typography__nav-link nav__link"
-              href="#">Контакты</a></li>
+          <li class="flex flex-header__li-item header__li-item f-w-700 l-h-12_89"><a
+              class="typography__nav-link nav__chosen" href="#">Исполнители</a></li>
+          <li class="flex flex-header__li-item header__li-item f-w-700 l-h-12_89"><a
+              class="typography__nav-link nav__link" href="#">Контакты</a></li>
         </ul>
       </div>
 
@@ -45,13 +45,80 @@
     </div>
   </header>
 
-  <main class="main flex flex-artist_main">
-    <section class="cover bg-cover flex flex-artist_cover" id="page-description">
-      <div class="cover__wrapper flex flex-artist_cover-wrapper"></div>
+  <main class="main flex flex-main">
+    <section class="cover bg-cover flex flex-cover" id="page-description">
+      <div class="cover__wrapper flex flex-cover__wrapper">
+        <h1 class="base__desk-h1 cover__h1">Morten Harket</h1>
+
+        <p class="typography typography__text-size_1 cover__subs">24 875 поклонников</p>
+
+        <div class="cover__buttons flex-cover__buttons">
+          <a class="artist-btn cover__mix-btn flex flex-cover__mix-btn" href="#">
+            <img class="artist-btn__icon" src="./images/play-button.svg" width="20" height="20" alt="play button">
+            <span class="artist-btn__text typography typography__text-size_small">Микс</span>
+          </a>
+
+          <a class="artist-btn cover__add-btn flex flex-cover__add-btn" href="#">
+            <img class="artist-btn__icon" src="./images/heart.svg" width="20" height="20" alt="add to favorites button">
+            <span class="artist-btn__text typography typography__text-size_small">В избранное</span>
+          </a>
+        </div>
+      </div>
     </section>
   </main>
-  <footer>
 
+  <footer class="footer bg-footer-gradient">
+    <div class="footer__top-wrapper flex flex-footer__top-wrapper">
+      <div class="footer__top grid grid-footer__top">
+        <div class="footer__section about">
+          <h2 class="base__desk-h2 footer__header">О нас</h2>
+          <ul class="about__list typography typography__text-size_1">
+            <li><a class="about__link" href="#">История компании</a></li>
+            <li><a class="about__link" href="#">Карьера</a></li>
+            <li><a class="about__link" href="#">Особенности</a></li>
+            <li><a class="about__link" href="#">Пресса</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__section service">
+          <h2 class="base__desk-h2 footer__header">Поддержка</h2>
+          <ul class="service__list typography typography__text-size_1">
+            <li><a class="service__link" href="#">База знаний</a></li>
+            <li><a class="service__link" href="#">Тарифы</a></li>
+            <li><a class="service__link" href="#">Мобильное приложение</a></li>
+            <li><a class="service__link" href="#">Условия использования</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__section contacts">
+          <h2 class="base__desk-h2 footer__header">Контакты</h2>
+          <div class="contacts__info typography typography__text-size_1">
+            <p class="contacts__element">hello@music.box</p>
+            <p class="contacts__element">Russia, Moscow. Music Box studio</p>
+            <p class="contacts__element">+ 7 499 999 99 99</p>
+          </div>
+        </div>
+
+        <div class="footer__section socials">
+          <h2 class="base__desk-h2 footer__header">Подписывайтесь</h2>
+          <ul class="socials__list grid grid-footer__socials">
+            <li><a href="#"><img class="socials__img" src="./images/Google+.png" alt="Google plus link"></a></li>
+            <li><a href="#"><img class="socials__img" src="./images/Twitter.png" alt="Twitter link"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom-wrapper flex flex-footer__bottom-wrapper">
+      <div class="footer__bottom bottom">
+        <ul class="footer__bottom-list grid grid-footer__bottom-list typography typography__text-size_1">
+          <li><a class="bottom__link" href="#">Магазин</a></li>
+          <li><a class="bottom__link" href="#">Обслуживание</a></li>
+          <li><a class="bottom__link" href="#">Блог</a></li>
+          <li><a class="bottom__link" href="#">Поддержка</a></li>
+          <li><a class="bottom__link" href="#">Контакты</a></li>
+        </ul>
+      </div>
+    </div>
   </footer>
 </body>
 
