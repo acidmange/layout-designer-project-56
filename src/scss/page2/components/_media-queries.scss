@@ -1,9 +1,18 @@
 // Artist page media styles
 
 @media (min-width: $breakpoint-desk-large-min-w) {
-
+  .cover__wrapper {
+    max-width: 1200px;
+  }
 }
 
 @media (max-width: $breakpoint-mob-max-w) {
+  .cover {
+    padding-left: 20px;
+    padding-right: 20px;
 
+    &__h1 {
+      @include mob-h-shwt($mob-h1-f-size, $mob-h1-l-height, $mob-h1-f-weight, $mob-h1-t-transform);
+    }
+  }
 }
