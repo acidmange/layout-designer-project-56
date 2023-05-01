@@ -1,5 +1,35 @@
 // Artist page cover styles
 
 .cover {
+  padding-top: 200px;
+  padding-bottom: 200px;
 
+  &__wrapper {
+    width: 100%;
+  }
+
+  &__h1 {
+    color: #fff;
+
+    margin-bottom: 0;
+  }
+
+  &__subs {
+    color: #fff;
+
+    margin: 16px 0 0 0;
+  }
+
+  &__buttons {
+    margin-top: 48px;
+    margin-bottom: 25px;
+  }
+
+  &__mix-btn {
+    background-color: $color-purple;
+  }
+
+  &__add-btn {
+    background-color: $color-dark-orange;
+  }
 }
