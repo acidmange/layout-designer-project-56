@@ -18,6 +18,32 @@
   margin-left: 24px;
 }
 
+.f-w-700 {
+  font-weight: 700;
+}
+
+.l-h-12_89 {
+  line-height: 12.89px;
+}
+
+.artist-btn {
+  display: block;
+  width: 200px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-decoration: none;
+
+  &__text {
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  &__icon {
+    filter: invert(1);
+  }
+}
+
 // Backgrounds
 
 .bg-cover {
