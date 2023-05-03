@@ -108,6 +108,8 @@
   line-height: 19.2px;
 }
 .typography__text-size_small_bold {
+  font-size: 12.8px;
+  line-height: 19.2px;
   font-weight: 700;
 }
 
@@ -889,8 +891,71 @@
   background-color: #95390c;
 }
 
+.tracks {
+  padding-top: 100px;
+}
+.tracks__wrapper {
+  width: 100%;
+}
+.tracks__h2 {
+  margin: 0 0 48px 0;
+  color: #fff;
+}
+.tracks__item {
+  column-gap: 15px;
+  width: 550px;
+  margin-right: 50px;
+}
+.tracks__item-info {
+  width: 100%;
+}
+.tracks__item-data .tracks__item-title {
+  margin: 0;
+  color: #fff;
+}
+.tracks__item-artist {
+  color: #e0e0e0;
+}
+.tracks__item-length {
+  color: #e0e0e0;
+}
+
+.disco {
+  padding-top: 100px;
+}
+.disco__wrapper {
+  width: 100%;
+}
+.disco__h2 {
+  margin: 0;
+  color: #fff;
+}
+.disco__container {
+  margin-top: 48px;
+}
+.disco__item {
+  margin-right: 50px;
+}
+.disco__item-image {
+  vertical-align: middle;
+}
+.disco__item-title {
+  margin: 0;
+  text-transform: capitalize;
+  color: #fff;
+}
+.disco__item-year {
+  color: #e0e0e0;
+}
+
 @media (min-width: 1240px) {
   .cover__wrapper {
+    max-width: 1200px;
+  }
+  .tracks__wrapper {
+    max-width: 1200px;
+  }
+  .disco__wrapper {
     max-width: 1200px;
   }
 }
@@ -904,6 +969,36 @@
     line-height: 45px;
     font-weight: bold;
     text-transform: uppercase;
+  }
+  .tracks {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .tracks__h2 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .tracks__item {
+    margin-right: 0;
+  }
+  .disco {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .disco__h2 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .disco__item {
+    max-width: 137px;
+  }
+  .disco__item-image {
+    width: 137px;
+    height: 137px;
   }
 }
 .flex {
@@ -926,6 +1021,30 @@
 .flex-cover__buttons {
   display: flex;
   column-gap: 1.5rem;
+}
+.flex-tracks {
+  justify-content: center;
+}
+.flex-tracks__container {
+  flex-wrap: wrap;
+  row-gap: 25px;
+}
+.flex-tracks__item-info {
+  align-items: center;
+}
+.flex-tracks__item-data {
+  flex-direction: column;
+}
+.flex-disco {
+  justify-content: center;
+}
+.flex-disco__container {
+  flex-wrap: wrap;
+  row-gap: 25px;
+}
+.flex-disco__item {
+  flex-direction: column;
+  row-gap: 18px;
 }
 @media (max-width: 414px) {
   .flex-cover__buttons {
