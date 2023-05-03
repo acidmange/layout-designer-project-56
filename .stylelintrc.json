@@ -2,6 +2,21 @@
   "extends": "stylelint-config-standard-scss",
   "rules": {
       "selector-class-pattern": null,
-      "no-missing-end-of-source-newline": null
-    }
+      "shorthand-property-no-redundant-values": null,
+      "no-missing-end-of-source-newline": null,
+      "scss/dollar-variable-pattern": null,
+      "font-family-name-quotes": null,
+      "at-rule-empty-line-before": null,
+      "rule-empty-line-before": null,
+      "declaration-block-no-redundant-longhand-properties": null
+    },
+  "ignoreFiles": [
+    "./src/images/*",
+    "./src/fonts/*",
+    "./src/css/*",
+    "./test-images/*",
+    "./*.json",
+    "./*.md",
+    "./**/*.html"
+  ]
 }
