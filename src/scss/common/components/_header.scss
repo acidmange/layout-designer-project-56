@@ -2,7 +2,6 @@
 
 .header {
   margin-top: 25px;
-
   position: absolute;
   top: 0;
   left: 0;
@@ -13,7 +12,7 @@
   }
 
   &__link {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #fff;
   }
 
@@ -25,7 +24,6 @@
     background-color: $color-dark-gray;
     border: none;
     border-radius: 50px;
-
     padding: 5px 10px;
     width: 228px;
 

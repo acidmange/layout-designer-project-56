@@ -92,6 +92,7 @@
 
       &__h3 {
         @include mob-h-shwt($mob-h3-f-size, $mob-h3-l-height, $mob-h3-f-weight, $mob-h3-t-transform);
+
         font-weight: 400;
         text-transform: capitalize;
       }
