@@ -248,6 +248,15 @@
 
 .footer {
   overflow: hidden;
+  /*&__top-wrapper::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    border: 1px solid $base-font-color;
+    box-sizing: border-box;
+  } */
 }
 .footer__wrapper {
   width: 100%;
@@ -261,15 +270,6 @@
 .footer__top-wrapper {
   position: relative;
 }
-.footer__top-wrapper::after {
-  content: "";
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  width: 100%;
-  border: 1px solid #cacaca;
-  box-sizing: border-box;
-}
 .footer__header {
   color: #fff;
   font-size: 18px;
@@ -280,7 +280,6 @@
 }
 .footer__bottom {
   width: 100%;
-  margin-top: 1px;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
