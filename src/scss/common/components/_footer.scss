@@ -64,7 +64,6 @@
 .service {
   &__list {
     list-style-type: none;
-    margin: 0;
     padding: 0;
   }
 
@@ -75,8 +74,12 @@
 }
 
 .contacts {
+  &__list {
+    list-style-type: none;
+    padding: 0;
+  }
+
   &__element {
-    margin: 0;
     color: $color-light-gray;
   }
 }
@@ -84,7 +87,6 @@
 .socials {
   &__list {
     list-style-type: none;
-    margin: 0;
     padding: 0;
   }
 

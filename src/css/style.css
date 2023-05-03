@@ -299,7 +299,6 @@
 
 .service__list {
   list-style-type: none;
-  margin: 0;
   padding: 0;
 }
 .service__link {
@@ -307,14 +306,16 @@
   color: #e0e0e0;
 }
 
+.contacts__list {
+  list-style-type: none;
+  padding: 0;
+}
 .contacts__element {
-  margin: 0;
   color: #e0e0e0;
 }
 
 .socials__list {
   list-style-type: none;
-  margin: 0;
   padding: 0;
 }
 .socials__img {
@@ -380,15 +381,10 @@
   .footer__top {
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 75px;
   }
   .footer__bottom {
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 47px;
-  }
-  .footer__header {
-    margin-bottom: 16px;
   }
 }
 .flex {
@@ -466,7 +462,6 @@
 @media (max-width: 414px) {
   .grid-footer__top {
     grid-template-columns: 1fr;
-    row-gap: 30px;
   }
   .grid-footer__bottom-list {
     grid-template-columns: 1fr;
