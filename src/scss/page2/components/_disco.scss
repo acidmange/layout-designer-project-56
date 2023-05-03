@@ -1,0 +1,37 @@
+// Artist page disco styles
+
+.disco {
+  padding-top: 100px;
+
+  &__wrapper {
+    width: 100%;
+  }
+
+  &__h2 {
+    margin: 0;
+    color: #fff;
+  }
+
+  &__container {
+    margin-top: 48px;
+  }
+
+  &__item {
+    margin-right: 50px;
+
+    &-image {
+      vertical-align: middle;
+    }
+
+    &-title {
+      margin: 0;
+      
+      text-transform: capitalize;
+      color: #fff;
+    }
+
+    &-year {
+      color: $color-light-gray;
+    }
+  }
+}
