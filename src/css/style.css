@@ -276,7 +276,6 @@
   line-height: 27px;
   font-weight: bold;
   text-transform: uppercase;
-  margin: 0 0 15px 0;
 }
 .footer__bottom {
   width: 100%;
@@ -284,14 +283,13 @@
   padding-bottom: 2rem;
 }
 .footer__bottom-list {
+  margin-top: 0;
   list-style-type: none;
-  margin: 0;
   padding: 0;
 }
 
 .about__list {
   list-style-type: none;
-  margin: 0;
   padding: 0;
 }
 .about__link {

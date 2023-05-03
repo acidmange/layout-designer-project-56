@@ -34,7 +34,6 @@
     line-height: 27px;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 0 0 15px 0;
   }
 
   &__bottom {
@@ -43,8 +42,8 @@
     padding-bottom: 2rem;
 
     &-list {
+      margin-top: 0;
       list-style-type: none;
-      margin: 0;
       padding: 0;
     }
   }
@@ -53,7 +52,6 @@
 .about {
   &__list {
     list-style-type: none;
-    margin: 0;
     padding: 0;
   }
 
