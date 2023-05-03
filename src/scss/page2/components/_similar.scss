@@ -1,6 +1,36 @@
 // Artist page "similar" section styles
 
 .similar {
-  
-}
+  padding-top: 100px;
+  margin-bottom: 100px;
 
+  &__wrapper {
+    width: 100%;
+  }
+
+  &__h2 {
+    margin: 0;
+    color: #fff;
+  }
+
+  &__container {
+    margin-top: 48px;
+  }
+
+  &__item {
+    margin-right: 50px;
+
+    &-title {
+      margin: 0;
+      color: #fff;
+    }
+
+    &-subs {
+      color: $color-light-gray;
+    }
+
+    &-data {
+      text-align: center;
+    }
+  }
+}
