@@ -44,8 +44,10 @@
     text-transform: $desk-h4-t-transform;
 
     &_capitalize-bold {
+      font-size: $desk-h4-f-size;
+      line-height: $desk-h4-l-height;
+      font-weight: $desk-h4-f-weight;
       text-transform: $desk-h4-t-transform_capitalize_bold;
-      font-weight: $desk-h4-f-weight_capitalize_bold;
     }
   }
 }
