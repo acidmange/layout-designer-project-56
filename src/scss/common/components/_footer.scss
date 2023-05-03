@@ -18,7 +18,7 @@
     position: relative;
   }
 
-  &__top-wrapper::after {
+  /*&__top-wrapper::after {
     content: "";
     position: absolute;
     bottom: -1px;
@@ -26,7 +26,7 @@
     width: 100%;
     border: 1px solid $base-font-color;
     box-sizing: border-box;
-  }
+  } */
 
   &__header {
     color: #fff;
@@ -39,7 +39,6 @@
 
   &__bottom {
     width: 100%;
-    margin-top: 1px;
     padding-top: 2rem;
     padding-bottom: 2rem;
 
