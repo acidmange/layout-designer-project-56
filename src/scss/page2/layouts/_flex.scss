@@ -26,6 +26,37 @@
     }
   }
 
+  &-tracks {
+    justify-content: center;
+
+    &__container {
+      flex-wrap: wrap;
+      row-gap: 25px;
+    }
+
+    &__item-info {
+      align-items: center;
+    }
+
+    &__item-data {
+      flex-direction: column;
+    }
+  }
+
+  &-disco {
+    justify-content: center;
+
+    &__container {
+      flex-wrap: wrap;
+      row-gap: 25px;
+    }
+
+    &__item {
+      flex-direction: column;
+      row-gap: 18px;
+    }
+  }
+
   @media (max-width: $breakpoint-mob-max-w) {
     &-cover {
       &__buttons {
