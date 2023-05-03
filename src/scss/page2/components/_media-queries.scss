@@ -4,6 +4,14 @@
   .cover__wrapper {
     max-width: 1200px;
   }
+
+  .tracks__wrapper {
+    max-width: 1200px;
+  }
+
+  .disco__wrapper {
+    max-width: 1200px;
+  }
 }
 
 @media (max-width: $breakpoint-mob-max-w) {
@@ -13,6 +21,37 @@
 
     &__h1 {
       @include mob-h-shwt($mob-h1-f-size, $mob-h1-l-height, $mob-h1-f-weight, $mob-h1-t-transform);
+    }
+  }
+
+  .tracks {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    &__h2 {
+      @include mob-h-shwt($mob-h2-f-size, $mob-h2-l-height, $mob-h2-f-weight, $mob-h2-t-transform);
+    }
+
+    &__item {
+      margin-right: 0;
+    }
+  }
+
+  .disco {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    &__h2 {
+      @include mob-h-shwt($mob-h2-f-size, $mob-h2-l-height, $mob-h2-f-weight, $mob-h2-t-transform);
+    }
+
+    &__item {
+      max-width: 137px;
+    }
+
+    &__item-image {
+      width: 137px;
+      height: 137px;
     }
   }
 }
