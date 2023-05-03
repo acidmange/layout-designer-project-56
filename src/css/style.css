@@ -911,7 +911,7 @@
 .tracks__item-info {
   width: 100%;
 }
-.tracks__item-data .tracks__item-title {
+.tracks__item-title {
   margin: 0;
   color: #fff;
 }
@@ -1080,6 +1080,7 @@
 }
 .flex-tracks__item-info {
   align-items: center;
+  justify-content: space-between;
 }
 .flex-tracks__item-data {
   flex-direction: column;
