@@ -525,6 +525,7 @@
 
 .pricing {
   padding-top: 100px;
+  margin: auto;
 }
 .pricing__cards {
   margin-top: 45px;
@@ -677,6 +678,9 @@
 
 @media (min-width: 1240px) {
   .banner__wrapper {
+    max-width: 1200px;
+  }
+  .pricing {
     max-width: 1200px;
   }
   .pricing__wrapper {
