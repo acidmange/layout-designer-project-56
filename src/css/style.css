@@ -641,7 +641,7 @@
 
 .mob-app {
   padding-top: 100px;
-  padding-bottom: 100px;
+  margin-bottom: 100px;
 }
 .mob-app__wrapper {
   width: 100%;
