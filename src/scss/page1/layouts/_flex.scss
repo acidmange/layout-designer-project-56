@@ -20,14 +20,19 @@
 
     &__cards {
       flex-wrap: wrap;
-      justify-content: center;
-      column-gap: 50px;
+      justify-content: space-between;
       row-gap: 50px;
     }
 
     &__card {
       flex-direction: column;
       align-items: center;
+    }
+  }
+
+  &-plan-card {
+    &__price {
+      column-gap: 16px;
     }
   }
 
