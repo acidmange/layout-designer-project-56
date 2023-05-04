@@ -731,6 +731,9 @@
   .pricing__card {
     width: 100%;
   }
+  .pricing__cards {
+    margin-top: 46px;
+  }
   .pricing__h2 {
     font-size: 18px;
     line-height: 27px;
