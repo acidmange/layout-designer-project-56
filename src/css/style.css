@@ -742,6 +742,7 @@
     line-height: 24px;
     font-weight: 700;
     text-transform: uppercase;
+    font-weight: 400;
   }
   .news {
     width: 100%;
