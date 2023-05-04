@@ -861,6 +861,9 @@
     flex-direction: column-reverse;
     align-items: center;
   }
+  .flex-pricing__cards {
+    row-gap: 50px;
+  }
 }
 
 .cover {

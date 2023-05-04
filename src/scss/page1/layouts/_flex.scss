@@ -101,5 +101,11 @@
         align-items: center;
       }
     }
+
+    &-pricing {
+      &__cards {
+        row-gap: 50px;
+      }
+    }
   }
 }
