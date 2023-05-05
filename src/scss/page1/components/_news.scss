@@ -1,8 +1,6 @@
 // News styles
 
 .news {
-  padding-top: 100px;
-
   &-elmnt {
     &__img {
       vertical-align: middle;
@@ -53,6 +51,9 @@
   }
 
   &__wrapper {
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
     width: 100%;
     box-sizing: border-box;
   }

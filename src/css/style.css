@@ -583,9 +583,6 @@
   line-height: 1em;
 }
 
-.news {
-  padding-top: 100px;
-}
 .news-elmnt__img {
   vertical-align: middle;
 }
@@ -625,6 +622,9 @@
   color: #f89202;
 }
 .news__wrapper {
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
   width: 100%;
   box-sizing: border-box;
 }
