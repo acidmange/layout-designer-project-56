@@ -1,10 +1,11 @@
 // Artist page "similar" section styles
 
 .similar {
-  padding-top: 100px;
-  margin-bottom: 100px;
-
   &__wrapper {
+    padding-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
     width: 100%;
   }
 

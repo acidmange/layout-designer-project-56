@@ -951,11 +951,11 @@
   color: #e0e0e0;
 }
 
-.similar {
+.similar__wrapper {
   padding-top: 100px;
   margin-bottom: 100px;
-}
-.similar__wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
   width: 100%;
 }
 .similar__h2 {
@@ -1032,9 +1032,8 @@
     width: 137px;
     height: 137px;
   }
-  .similar {
-    padding-left: 20px;
-    padding-right: 20px;
+  .similar__wrapper {
+    box-sizing: border-box;
   }
   .similar__h2 {
     font-size: 18px;
