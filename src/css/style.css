@@ -169,12 +169,11 @@
   background-image: url("../images/subscribe_1.png");
   background-position: center;
   background-size: cover;
-  vertical-align: middle;
 }
 
 .bg-card-standart {
   background-image: url("../images/subscribe_2.png");
-  background-position: center;
+  background-position: auto;
   background-size: cover;
 }
 
@@ -728,9 +727,6 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-  .pricing__card {
-    width: 100%;
-  }
   .pricing__h2 {
     font-size: 18px;
     line-height: 27px;
@@ -863,6 +859,7 @@
   }
   .flex-pricing__cards {
     row-gap: 50px;
+    justify-content: center;
   }
 }
 
