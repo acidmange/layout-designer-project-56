@@ -924,10 +924,10 @@
   color: #e0e0e0;
 }
 
-.disco {
-  padding-top: 100px;
-}
 .disco__wrapper {
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
   width: 100%;
 }
 .disco__h2 {
@@ -1016,9 +1016,8 @@
   .tracks__wrapper {
     box-sizing: border-box;
   }
-  .disco {
-    padding-left: 20px;
-    padding-right: 20px;
+  .disco__wrapper {
+    box-sizing: border-box;
   }
   .disco__h2 {
     font-size: 18px;
