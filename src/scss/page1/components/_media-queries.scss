@@ -57,6 +57,10 @@
       box-sizing: border-box;
     }
 
+    &__card {
+      width: 100%;
+    }
+
     &__h2 {
       @include mob-h-shwt($mob-h2-f-size, $mob-h2-l-height, $mob-h2-f-weight, $mob-h2-t-transform);
     }

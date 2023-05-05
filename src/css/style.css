@@ -727,6 +727,9 @@
   .pricing__wrapper {
     box-sizing: border-box;
   }
+  .pricing__card {
+    width: 100%;
+  }
   .pricing__h2 {
     font-size: 18px;
     line-height: 27px;
