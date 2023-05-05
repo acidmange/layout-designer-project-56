@@ -895,10 +895,11 @@
   background-color: #95390c;
 }
 
-.tracks {
-  padding-top: 100px;
-}
 .tracks__wrapper {
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
   width: 100%;
 }
 .tracks__h2 {
@@ -1003,10 +1004,6 @@
     line-height: 45px;
     font-weight: bold;
     text-transform: uppercase;
-  }
-  .tracks {
-    padding-left: 20px;
-    padding-right: 20px;
   }
   .tracks__h2 {
     font-size: 18px;
