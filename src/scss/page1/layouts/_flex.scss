@@ -107,6 +107,10 @@
         row-gap: 50px;
         justify-content: center;
       }
+
+      &__card {
+        align-items: center;
+      }
     }
   }
 }

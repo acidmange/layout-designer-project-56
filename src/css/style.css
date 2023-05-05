@@ -532,10 +532,12 @@
   width: 100%;
 }
 .pricing__card {
+  border-radius: 1rem;
+}
+.pricing__card-wrapper {
   box-sizing: border-box;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  border-radius: 1rem;
   text-align: center;
   width: 366.6666666667px;
 }
@@ -724,8 +726,6 @@
   }
   .pricing__wrapper {
     box-sizing: border-box;
-    padding-left: 20px;
-    padding-right: 20px;
   }
   .pricing__h2 {
     font-size: 18px;
@@ -739,6 +739,12 @@
     font-weight: 700;
     text-transform: uppercase;
     font-weight: 400;
+    margin-top: 1em;
+  }
+  .plan-card__footer {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
   .news {
     width: 100%;
@@ -860,6 +866,9 @@
   .flex-pricing__cards {
     row-gap: 50px;
     justify-content: center;
+  }
+  .flex-pricing__card {
+    align-items: center;
   }
 }
 
