@@ -36,6 +36,10 @@
     &__item {
       margin-right: 0;
     }
+
+    &__wrapper {
+      box-sizing: border-box;
+    }
   }
 
   .disco {

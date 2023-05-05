@@ -899,7 +899,6 @@
   padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
-  box-sizing: border-box;
   width: 100%;
 }
 .tracks__h2 {
@@ -1013,6 +1012,9 @@
   }
   .tracks__item {
     margin-right: 0;
+  }
+  .tracks__wrapper {
+    box-sizing: border-box;
   }
   .disco {
     padding-left: 20px;
